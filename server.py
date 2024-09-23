@@ -8,7 +8,8 @@ app.config["upload"] = "upload/"
 CORS(app)
 # Route pertama
 @app.route('/')
-def index():    
+def index():   
+     
     return 'Welcome to Api server Dinas Perhubungan'
 
 @app.route('/api/service-image',methods=['POST'])
