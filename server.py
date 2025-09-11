@@ -27,6 +27,8 @@ def service_image():
         return jsonify({
             "result":main.main("upload/"+result)
         })
+        
+    
     
 if __name__ == '__main__':
     # Menjalankan aplikasi Flask

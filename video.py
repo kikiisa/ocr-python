@@ -14,13 +14,10 @@ import numpy as np
 import main
 harcascade = "model/haarcascade_russian_plate_number.xml"
 
-cap = cv2.VideoCapture("video/sample3.mp4")
-
+cap = cv2.VideoCapture("video/video.mp4")
 cap.set(3, 640) # width
 cap.set(4, 480) #height
-
 min_area = 500
-
 count = 0
 
 while True:
